@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     public void solve(View v){
         solveEquation();
     }
-
     public void random_numbers(View view) {
         generateRandomNumbers();
     }
