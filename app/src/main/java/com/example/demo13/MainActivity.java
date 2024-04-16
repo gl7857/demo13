@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
     public void random_numbers(View view) {
         generateRandomNumbers();
     }
-
     public void solveEquation() {
         if (isValidNum(aEditText.getText().toString())&& (isValidNum(bEditText.getText().toString()))
                 && (isValidNum(cEditText.getText().toString()))) {
